@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#idpartesuperior > div {
+    display: block;
+    height:8px;
+    width: 100%;
+    background-color: #0664D4;
+}
+
+div#idpartesuperior > h1 {
+    font-family: 'Lato', sans-serif;
+    color: #0664D4;
+    text-align: center;
+    padding: 20px;
+}
+
+div#idformaulariodelogin > p {
+    text-align: center;
+    width: 210px;
+    margin: auto;
+    
+}
+
+div.login {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+div.login label {
+    display: block;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #666666;
+    padding-bottom: 5px;
+}
+
+div.login input {
+    display: block;
+    width: 296px;
+    height: 35px;
+    margin: auto;
+    border: 0.5px solid #666666;
+    border-radius: 4px;
+}
+
+div.login > p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+div.login a {
+    text-decoration: none;
+    color: #0664D4;
+}
+
+div#idbotaodelogin > input{
+    display: block;
+    background-color: #0664D4;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: white;
+    width: 296px;
+    height: 35px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: 0.5px solid #0664D4;
+    border-radius: 4px;
+    box-shadow: 1px 0px rgba(0, 0, 0, 0.712);
+}
+
+div#idbotaodelogin > p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div#idbotaodelogin a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0664D4;
+}
+
+div#iddivisor{
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+div#idtextodivisor {
+    display: inline-block;
+}
+
+div#idtextodivisor > p {
+    width: 127px;
+    font-size: 0.9em;
+    color: #666666;
+    text-align: center;
+    margin: auto;
+}
+
+hr#hrleft {
+    display: inline-block;
+    width: 80px;
+    margin: left;
+    margin-top: 15px;
+}
+
+hr#hrright {
+    display: inline-block;
+    width: 80px;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+div#idbotao {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div#idbotao > a > input {
+    display: inline-block;
+    background-color: white;
+    width: 147px;
+    height: 35px;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: #666666;
+    border: 0.5px solid #a3a1a1;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 0px #a7a4a4e7;
+}
+
+div#idrodape {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+div#idrodape a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0664D4;
+} 

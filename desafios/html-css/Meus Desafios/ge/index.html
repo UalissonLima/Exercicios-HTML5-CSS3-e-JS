@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css" media="screen">
+    <title>Criando Login do ge</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="idpartesuperior">
+                <div> </div> <!-- LINHA AZUL -->
+                <h1>CONTA GLOBO</h1>
+            </div>
+
+            <div id="idformaulariodelogin">
+                <p>Uma só conta para todos os produtos Globo</p>
+                <form action="login.php" method="post">
+                    <div class="login">
+                        <label for="idemail">E-mail</label>
+                        <input type="email" name="email" id="idemail">
+                        <p><a href="#">Esqueceu a login?</a></p>
+                    </div>
+                    <div class="login">
+                        <label for="idsenha">Senha</label>
+                        <input type="password" name="senha" id="idsenha">
+                        <p><a href="#">Esqueceu sua senha?</a></p>
+                    </div>
+                    <div id="idbotaodelogin">
+                        <input type="submit" value="ENTRAR">
+                        <p>Não tem conta? <a href="#">CADASTRE-SE.</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div id="idparteinferior">
+                <div id="iddivisor">
+                    <hr id="hrleft">
+                    <div id="idtextodivisor"><p>ou entre com</p></div>
+                    <hr id="hrright">
+                </div>
+
+                <div id="idbotao">
+                    <a href="https://pt-br.facebook.com/"><input type="button" value="Facebook"></a>
+                    <a href="https://www.google.com/intl/pt-BR/account/about/"><input type="button" value="Google" id="idgoogle"></a>
+                </div>
+
+                <div id="idrodape">
+                    <p>Este site é protegido pelo hCaptcha e está sujeito a sua
+                    <a href="">Política de Privacidade</a> e <a href="#">Termos de Uso</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

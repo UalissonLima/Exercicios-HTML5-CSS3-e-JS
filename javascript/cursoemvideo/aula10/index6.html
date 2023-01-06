@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+
+        div#container {
+            position: absolute;
+            background-color: rgb(22, 53, 10);
+            width: 100vw;
+            height: 100vh;
+        }
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        div#area {
+            background: rgba(60, 109, 60, 0.795);
+            font: normal 2em Arial;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 20px;
+            box-shadow: 1px 0.8px black;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+            Interaja...
+        </div>
+    </div>
+    <script>
+        function clicar(){
+            var area = window.document.getElementById('area')
+            area.innerHTML = 'Clicou!'
+            area.style.backgroundColor = 'red'
+        }
+
+        function entrar(){
+            var area = window.document.getElementById('area')
+            area.innerHTML = 'Entrou!'
+        }
+        
+        function sair(){
+            var area = window.document.getElementById('area')
+            area.innerHTML = 'Saiu!'
+            area.style.backgroundColor = 'rgba(60, 109, 60, 0.795)'
+        }
+    </script>
+</body>
+</html>

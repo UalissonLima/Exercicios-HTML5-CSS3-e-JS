@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(93, 133, 243);
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+}
+
+#idflista {
+    width: 150px;
+}
+
+#idresultado {
+    text-align: center;
+}
+
+
+img#imagem {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: -3px -1px 10px -1px rgba(0, 0, 0, 0.200);
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
